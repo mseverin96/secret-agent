@@ -12,6 +12,7 @@ html {
 
 .container {
   width:960px;
+  margin: 0 auto;
 }
 
 /* Header */
@@ -23,8 +24,6 @@ header {
 
 .head-contain {
   display:flex;
-  flex-direction:row;
-  margin: 0 auto;
   align-items:center;
 }
 
@@ -41,7 +40,25 @@ header {
 
 /* Cycle */
 
-.cycle {
+.moto {
   height:25rem;
   background-image:url("../Pics/moto.jpeg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+
+.moto-box {
+  font-weight:bold;
+  background-color:black;
+  width:17rem;
+  padding:2rem 0 2rem 3rem;
+  position:relative;
+  top:9rem;
+}
+
+.moto-box h1 {
+  font-size:2rem;
+  margin-top: 0.25rem;
+  line-height: 1.2;
 }
