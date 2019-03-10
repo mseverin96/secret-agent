@@ -97,6 +97,10 @@ nav .container {
   margin:0 auto;
 }
 
+.special {
+  width:60%;
+}
+
 .product div {
   background-color:black;
   padding:.5rem 0;
@@ -128,3 +132,10 @@ nav .container {
 }
 
 /* Footer */
+
+footer {
+  height:5rem;
+  background-color:black;
+  display:flex;
+  align-items:center;
+}
