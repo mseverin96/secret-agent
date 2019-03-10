@@ -105,3 +105,26 @@ nav .container {
 }
 
 /* Info Section */
+
+.info {
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:4rem;
+}
+
+.info-box {
+  width:35%;
+  display:flex;
+  flex-direction:column;
+}
+
+.info-box .title {
+  background-color:black;
+  padding:1rem 0 1rem 2rem;
+}
+
+.info-box .title-description {
+  color:black;
+}
+
+/* Footer */
