@@ -2,3 +2,46 @@
   padding:0;
   margin:0;
 }
+
+html {
+  font-size:18px;
+  width:100%;
+  color:white;
+  font-family:Helvetica;
+}
+
+.container {
+  width:960px;
+}
+
+/* Header */
+
+header {
+  background-color:black;
+  width:100%;
+}
+
+.head-contain {
+  display:flex;
+  flex-direction:row;
+  margin: 0 auto;
+  align-items:center;
+}
+
+.head-item {
+  padding-left:.5rem;
+  padding-right:.5rem;
+}
+
+.head-contain img {
+  height:1.5rem;
+  padding-top:.66rem;
+  padding-bottom:.66rem;
+}
+
+/* Cycle */
+
+.cycle {
+  height:25rem;
+  background-image:url("../Pics/moto.jpeg");
+}
