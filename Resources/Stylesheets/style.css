@@ -15,6 +15,18 @@ html {
   margin: 0 auto;
 }
 
+@media only screen and (max-width:1024px){
+  .container {
+    width:100%;
+  }
+}
+
+@media only screen and (max-width:470px){
+  .container {
+    width:100%;
+  }
+}
+
 /* Header */
 
 header {
@@ -63,6 +75,25 @@ header {
   line-height: 1.2;
 }
 
+@media only screen and (max-width:470px){
+  .moto {
+    height:15rem;
+  }
+  .moto-box {
+    width:90%;
+    position:relative;
+    padding:1rem 0 1rem 2rem;
+    top:10rem;
+  }
+  .moto-box h1 {
+    font-size:1rem;
+  }
+  .moto-box span {
+    font-size:0.77rem;
+  }
+
+}
+
 /* Nav Bar */
 
 nav {
@@ -73,6 +104,21 @@ nav .container {
   display:flex;
   justify-content:space-between;
   padding:0.75rem 0;
+}
+
+nav .mobile-nav {
+  display:none;
+}
+
+@media only screen and (max-width:1024px){
+  nav .mobile-nav {
+    display:flex;
+    justify-content:center;
+    padding:0.75rem 0;
+  }
+  nav .container {
+    display:none;
+  }
 }
 
 /* Products */
@@ -108,6 +154,30 @@ nav .container {
   text-align:Center;
 }
 
+@media only screen and (max-width:1024px){
+  .third-product {
+    display:none;
+  }
+  .products {
+    justify-content:space-between;
+  }
+  .product {
+    width:47%;
+  }
+}
+
+@media only screen and (max-width:470px){
+  .third-product,
+   .second-product {
+    display:none;
+  }
+  .products {
+    justify-content:center;
+  }
+  .product {
+    width:90%;
+  }
+}
 /* Info Section */
 
 .info {
@@ -131,6 +201,18 @@ nav .container {
   color:black;
 }
 
+@media only screen and (max-width:470px){
+  .info {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .info-box {
+    width:90%;
+    margin-bottom:0.5rem;
+  }
+}
+
 /* Footer */
 
 footer {
@@ -138,4 +220,11 @@ footer {
   background-color:black;
   display:flex;
   align-items:center;
+}
+
+@media only screen and (max-width:470px){
+  footer .container {
+    display:flex;
+    justify-content:center;
+  }
 }
